@@ -1,7 +1,7 @@
 <template>
     <ul class="news__list">
       <li v-for="article in articles"  class="news__items"> {{ article.title }}
-      <img class="imgs" :src= "articles.images"/>
+      <img class="imgs" :src= "articles.urltoimages"/>
       {{article.description}} </li>
       
     </ul>
